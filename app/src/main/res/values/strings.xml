@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ensiklopedia Sains</string>
+    <string name="app_name1">Ensiklopedia</string>
+    <string name="app_name2">Sains</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Enter text to search</string>
+    <string name="refresh_title">Refresh Index</string>
+    <string name="search_intent_data">content://com.rdr.ensiklopediaapp/search_suggest_query</string>
+</resources>
