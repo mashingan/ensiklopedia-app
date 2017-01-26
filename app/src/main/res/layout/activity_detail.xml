@@ -61,6 +61,8 @@
             <TextView
                 android:id="@+id/textview_content"
                 android:textSize="@dimen/text_detail"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
