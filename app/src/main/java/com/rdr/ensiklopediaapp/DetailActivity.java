@@ -32,7 +32,7 @@ public class DetailActivity extends AppCompatActivity {
     private long currentId;
     private ImageView imageView;
     private GetDetail currentDetail;
-    private String url = "http://128.199.116.105/ensiklopedia/_graph" +
+    private String url = "http://183.91.78.12/ensiklopedia/_graph" +
             "/content/detail-word.php?word_id=";
     private ProgressDialog mProgress;
     private Toolbar toolbar;

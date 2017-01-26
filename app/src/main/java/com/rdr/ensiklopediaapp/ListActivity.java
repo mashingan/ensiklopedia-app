@@ -29,7 +29,7 @@ import java.io.IOException;
 
 public class ListActivity extends AppCompatActivity {
 
-    private static final String urlApi = "http://128.199.116.105/ensiklopedia/_graph" +
+    private static final String urlApi = "http://183.91.78.12/ensiklopedia/_graph" +
             "/content/word.php?alphabet=";
     private final static String[] alphabets = { "a", "b", "c", "d", "e",
     "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q",

@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String DEBUG_TAG = "MainActivity: ";
     private String[] alphabets = { "a", "b", "c"};
-    private String urlApi = "http://128.199.116.105/ensiklopedia/_graph" +
+    private String urlApi = "http://183.91.78.12/ensiklopedia/_graph" +
             "/content/word.php?alphabet=";
     Intent intent;
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     private class AsyncRetrieve extends AsyncTask<String, Void, String> {
         @Override
         protected String doInBackground(String... path) {
-            Log.d(DEBUG_TAG, "Start to retrieve " + path);
+            Log.d(DEBUG_TAG, "Start to retrieve " + path.toString());
             GetData getData = new GetData(path[0]);
             try {
                 getData.parseJSON();
