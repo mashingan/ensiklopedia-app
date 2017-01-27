@@ -42,11 +42,22 @@
     <style name="AppTheme.Toolbar.Widget.Style" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textColor">@android:color/white</item>
     </style>
+
     <style name="AppTheme.AutoCompleteTextView" parent="@style/Widget.AppCompat.AutoCompleteTextView">
         <item name="android:popupBackground">@color/lightGrey</item>
     </style>
+
     <style name="AppTheme.SearchResultTitle" parent="@style/TextAppearance.AppCompat.SearchResult.Title">
         <item name="android:textColor">@android:color/black</item>
     </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

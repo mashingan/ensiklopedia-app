@@ -242,6 +242,16 @@ public class DetailActivity extends AppCompatActivity {
 
     }
 
+    public void viewImageFull (View view) {
+        if (!currentDetail.imagePath.equals("")) {
+            Intent intent = new Intent(this, ImageFullActivity.class);
+            intent.putExtra("imgPath", currentDetail.imagePath);
+            startActivity(intent);
+            //finish();
+        }
+
+    }
+
     private void toastNotif(String msg) {
         Toast.makeText(getApplicationContext(), msg,
                 Toast.LENGTH_LONG).show();

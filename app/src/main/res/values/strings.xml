@@ -6,4 +6,5 @@
     <string name="search_hint">Enter text to search</string>
     <string name="refresh_title">Refresh Index</string>
     <string name="search_intent_data">content://com.rdr.ensiklopediaapp/search_suggest_query</string>
+    <string name="title_activity_image_full">ImageFullActivity</string>
 </resources>

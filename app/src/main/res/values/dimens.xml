@@ -7,4 +7,5 @@
     <dimen name="text_size">20sp</dimen>
     <dimen name="text_front">30sp</dimen>
     <dimen name="text_detail">16sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>
